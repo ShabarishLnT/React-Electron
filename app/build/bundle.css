@@ -1,0 +1,112 @@
+._6_afW5q1AghmvpXwkdY3v {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    background-color: #ffffff;
+}
+._1Y6M740HnsRW-aGtJpAywg {
+    padding: 30px;
+    max-width: 500px;
+    width: 100% !important;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 2px;
+    overflow: hidden;
+    font-family: brandon-grotesque,"Open Sans",open-sans,sans-serif;
+}
+._339nukAcCPgiZJ8mUFCa3C h1 {
+    text-align: center;
+    font-size: 1.8em;
+  }
+._1Xpm5s1Rpju3euB8X8bxfG {
+    background-color: #11B683; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 50px;
+}
+
+._3__3r92mPoJA7Em4T2QrOt {
+    font-size: 28px;
+    font-weight: 400;
+    color: #434C5F;
+    margin-bottom: 50px;
+}
+
+._3QPBFOCghFFuef6FceVVC4 {
+    display: block;
+    font-weight: 700;
+    font-size: 11px;
+    color: #434C5E;
+    margin-bottom:9px;
+    font-family: brandon-grotesque,"Open Sans",open-sans,sans-serif;
+}
+._2jivPdhOg7BtsnCTPvDSrR {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: #8C96A9;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+.RT2omXASRmHfv8KddM_k0 {
+    border: 1px solid #D4D9E2;
+    border-radius: 3px;
+    padding: 15px;
+    width:450px;
+    font-size: 14px;
+    color: #596377;
+    outline: 0;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+}
+._1Em1lSa_QQAxY6tKRkLh9R {
+    position: relative;
+    margin-bottom: 23px;
+}
+
+
+/*
+ * Global constants goes here
+ */
+:root {
+    --primary-color: #42b983;
+}
+
+
+/*
+ * Global CSS goes here, it requires to use :global before each style
+ */
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+}
+#app {
+    color: #2c3e50;
+    max-width: 600px;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    text-align: center;
+}
+#app p {
+    text-align: justify;
+}
+.hello {
+    color: var(--primary-color);
+}
